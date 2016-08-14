@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="./client-samp/css/csslab-reseter_v2.min.css">
+	<link rel="stylesheet" href="./client-samp/css/samp-client.css">
+</head>
+<style>
+body{
+	width: 1024px;
+	height: 804px;
+	margin: 15px auto;
+	background-color: #f6f9ff;
+	font-family: Helvetica;
+}
+</style>
+<body>
+	<div class="windows-client">
+		<div class="windows-body">
+			<ul class="header">
+				<li class="icon"><img src="./client-samp/images/samp-logo.png" alt=""></li>
+				<li class="title">San Andreas Multiplayer 0.3.7</li>
+			</ul>
+			<div class="body" style="overflow: hide;">
+				<ul class="client-nav-menu">
+					<li><a href="#">File</a></li>	
+					<li><a href="#">View</a></li>
+					<li><a href="#">Servers</a></li>
+					<li><a href="#">Tools</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+				<hr style="background-color: #a0a0a0;">
+				<ul class="sub-menu">
+					<li><a href="#"><img src="./client-samp/images/button-play.png" alt=""></a></li>
+					<li>&#124</li>
+					<li><a href="#"><img src="./client-samp/images/button-add.png" alt=""></a></li>
+					<li><a href="#"><img src="./client-samp/images/button-delete.png" alt=""></a></li>
+					<li><a href="#"><img src="./client-samp/images/button-refresh.png" alt=""></a></li>
+					<li>&#124</li>
+					<li><a href="#"><img src="./client-samp/images/button-copy-server-info.png" alt=""></a></li>
+					<li><a href="#"><img src="./client-samp/images/button-server-properties.png" alt=""></a></li>
+					<li>&#124</li>
+				</ul>
+				<div class="servers" style="overflow: hidden;">
+					<div style="float: left; width: 75%; background-color: #FFF; height: 1500px; max-height: 100%; overflow-y: auto; overflow-x: auto; max-width: 100%;">
+						<table class="sl">
+							<thead>
+								<tr class="sl-header">
+									<th width="2%" class="icon-password"><img src="./client-samp/images/server-status.jpg" alt=""></th>
+									<th style="width: 60%;">Hostname</th>
+									<th width="10%">Players</th>
+									<th width="5%;">Ping</th>
+									<th width="10%;">Mode</th>
+									<th>Language</th>
+								</tr> 
+							</thead>
+							<tbody class="cs" id="sl05"></tbody>
+						</table>
+					</div>
+					<div style="float: right; width: 24%; margin-left: 1%;">
+						<div class="server-info" style="height: 250px; max-height: 250px; overflow-y: auto;"> 
+							<table class="sl" style="font-size: 10.5px;">
+								<col width="60%">
+								<col width="40%">
+								<thead>
+									<tr>
+										<th>Player</th>
+										<th>Score</th>
+									</tr>
+								</thead>
+								<tbody id="pd"></tbody>
+							</table>
+						</div>
+						<div style="margin-top: 5px;">
+							<div style="height: 150px; max-height: 150px; background-color: #FFF; border-left: 1px solid #a0a0a0;">
+								<table class="sl" style="font-size: 11px;">
+									<col width="40%">
+									<col width="60%">
+									<thead>
+										<tr>
+											<th>Rule</th>
+											<th>Value</th>
+										</tr>
+									</thead>
+									<tbody id="prop"></tbody>
+								</table>
+							</div>
+							<div id="server-web-url" style="text-align: center; font-size: 14px;">Test</div>
+						</div>
+					</div>
+				</div>
+				<div style="width: 90%; height: 100%;">
+					<div style="display: inline-block; background-color: #e8e9ea; border: 1px solid #ccc; margin: 10px; padding: 5px;">
+						<span>Server Info</span>
+						<br>
+						<strong>IP:</strong> <span id="server-info-bottom"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./client-samp/js/jquery-3.1.0.min.js"></script>
+	<script src="./client-samp/js/samp-client.js"></script>
+</body>
+</html>

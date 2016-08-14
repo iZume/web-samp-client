@@ -1,0 +1,132 @@
+	.windows-client{
+		border: 1px solid rgb(149, 163, 92);
+    	background-color: rgb(207, 213, 120);
+		display: block;
+		min-width: 804px;
+		padding-bottom: 25px;
+	}
+	.windows-client .windows-body{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 4px;
+	}
+	.windows-client .header{
+		padding: 0;
+		margin: 0;
+		padding-top: 2px;
+		padding-bottom: 5px;
+		display: block;
+		width: 100%;
+	}
+	.windows-client .header > li{
+		display: inline-block;
+		list-style: none;
+	}
+	.windows-client .header > .icon{
+		width: 16px;
+	}
+	.windows-client .title{
+		margin-left: 34%;
+	}
+	.windows-client .header > .icon img{
+		width: 100%;
+	}
+	.windows-client .body{
+		border: 1px solid rgb(152, 163, 92);
+		background-color: #f5f6f7;
+		display: block;
+		height: 100%;
+	}
+	.windows-client ul.client-nav-menu{
+		background-color: #f5f6f7;
+		padding: 0;
+		margin: 0;
+		display: block;
+		border-bottom: 2px solid #e8e9ea;
+	}
+	.windows-client ul.client-nav-menu li{
+		padding-left: 7px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+
+		display: inline-block;
+	}
+	.windows-client ul.client-nav-menu li a{
+		font-size: 14px;
+		color: #000;
+		text-decoration: none;
+	}
+	.windows-client hr{
+		padding: 0;
+		margin: 0;
+	}
+	.windows-client ul.sub-menu{
+		padding: 0;
+		margin: 0;
+		padding-left: 4px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		display: block;
+		background-color: #e8e9ea;
+	}
+	.windows-client ul.sub-menu li{	
+		margin: 2px;
+		display: inline-block;
+		font-size: 18px;
+	}
+	.windows-client ul.sub-menu li a{
+		color: #000;
+		text-decoration: none;
+	}
+	.windows-client ul.sub-menu li img{
+		width: 16px;
+	}
+	.windows-client .windows-body .body .servers{
+		display: block;
+	}
+	.windows-client .sl{
+		width: 100%;
+		background-color: #FFF;
+		font-size: 14px;
+	}
+	.windows-client .servers .server-info{
+		min-height: 100%;
+		background-color: #FFF;
+		border-left: 1px solid #a0a0a0;
+	}
+	.windows-client .sl td{
+		padding: 3px;
+		padding-left: 5px;
+	}
+	.windows-client tbody tr td{
+		height: 100%;
+		max-height: 1px;
+	}
+	tr.sombrear td{
+		background-color: #3399ff;
+		color: #FFF;
+	}
+	.windows-client .sl .cs{
+		background-color: #FFF;
+		font-size: 10.5px;
+	}
+	.windows-client tr.black{
+		background-color: #efefef;
+	}
+	.windows-client tr:hover td{
+		cursor: pointer;
+	}
+	.windows-client .sl div.cs td {
+		border: 1px solid #e8f1fb;
+    	padding-left: 5px;
+	}
+	.windows-client .sl th {
+		border: 1px solid #e8f1fb;
+		padding-left: 5px;
+	}
+	.windows-client .servers{
+		height: 450px;
+	}
+	.windows-client .icon-password{
+		text-align: center;
+	}
