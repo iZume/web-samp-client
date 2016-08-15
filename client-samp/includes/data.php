@@ -1,4 +1,6 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+
 require('./monitor.php');
 
 if(isset($_GET['ip']) && isset($_GET['data'])) 
