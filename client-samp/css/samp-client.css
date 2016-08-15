@@ -106,6 +106,10 @@
 		background-color: #3399ff;
 		color: #FFF;
 	}
+	.windows-client .sl th {
+		font-weight: 0;
+		text-align: left;
+	}
 	.windows-client .sl .cs{
 		background-color: #FFF;
 		font-size: 10.5px;
